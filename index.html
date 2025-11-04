@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lintar - Front-End Developer</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="container">
+            <a href="#hero" class="nav-logo">Lintar.</a>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#about">Tentang</a></li>
+                    <li><a href="#experience">Pengalaman</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </nav>
+
+            <div class="hamburger" id="hamburger-menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <span class="hero-subtitle">Halo, saya</span>
+                    <h1 class="hero-title">Lintar Bumi</h1>
+                    <p class="hero-job">Front-End Developer & UI/UX Enthusiast</p>
+                    <p class="hero-description">
+                        Saya mengubah ide-ide kompleks menjadi desain antarmuka yang indah, fungsional, dan mudah digunakan.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-secondary">Hubungi Saya</a>
+                        <button id="download-btn" class="btn btn-primary">
+                            Unduh CV <i class="fa-solid fa-download"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="nirmal-rajendharkumar-1lGeOg6IULc-unsplash (1).jpg" alt="Foto Profil Lintar Bumi">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container about-container">
+                <div class="about-text">
+                    <h2 class="section-title">Tentang Saya</h2>
+                    <p>
+                        Saya adalah seorang front-end developer dengan hasrat mendalam untuk menciptakan pengalaman digital yang intuitif. Dengan keahlian di HTML, CSS, dan JavaScript, saya fokus pada penulisan kode yang bersih dan responsif.
+                    </p>
+                    <p>
+                        Saya percaya bahwa desain yang hebat adalah perpaduan antara estetika dan fungsionalitas. Saat tidak sedang *ngoding*, saya senang menjelajahi tren desain baru dan berkontribusi pada proyek *open-source*.
+                    </p>
+                </div>
+                <div class="about-skills">
+                    <h3 class="skills-title">Skill Utama</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item"><i class="fa-brands fa-html5"></i> HTML5</div>
+                        <div class="skill-item"><i class="fa-brands fa-css3-alt"></i> CSS3</div>
+                        <div class="skill-item"><i class="fa-brands fa-js"></i> JavaScript (ES6+)</div>
+                        <div class="skill-item"><i class="fa-brands fa-react"></i> React</div>
+                        <div class="skill-item"><i class="fa-brands fa-figma"></i> Figma</div>
+                        <div class="skill-item"><i class="fa-brands fa-git-alt"></i> Git</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="experience">
+            <div class="container">
+                <h2 class="section-title text-center">Pengalaman & Proyek</h2>
+                <div class="experience-grid">
+                    <article class="card">
+                        <div class="card-header">
+                            <i class="fa-solid fa-briefcase card-icon"></i>
+                            <h3>Aplikasi E-commerce</h3>
+                            <span>Website Perusahaan | 2024</span>
+                        </div>
+                        <p>Membangun antarmuka *e-commerce* responsif dari awal menggunakan CSS Grid dan Vanilla JS untuk fungsionalitas keranjang belanja.</p>
+                    </article>
+                    <article class="card">
+                        <div class="card-header">
+                            <i class="fa-solid fa-pen-ruler card-icon"></i>
+                            <h3>Landing Page "TechFest"</h3>
+                            <span>Proyek Klien | 2023</span>
+                        </div>
+                        <p>Mendesain dan mengimplementasikan *landing page* promosi acara dengan fokus pada optimasi *load time* dan animasi *scroll*.</p>
+                    </article>
+                    <article class="card">
+                        <div class="card-header">
+                            <i class="fa-solid fa-code card-icon"></i>
+                            <h3>Personal Dashboard</h3>
+                            <span>Proyek Pribadi | 2023</span>
+                        </div>
+                        <p>Membuat dasbor analitik kustom yang mengambil data dari berbagai API publik menggunakan `fetch` API di JavaScript.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container text-center">
+                <h2 class="section-title">Mari Terhubung</h2>
+                <p class="contact-subtitle">
+                    Saya selalu terbuka untuk diskusi, kolaborasi, atau sekadar menyapa.
+                </p>
+                <a href="mailto:emailanda@gmail.com" class="btn btn-primary">
+                    Kirim Email <i class="fa-solid fa-paper-plane"></i>
+                </a>
+                <div class="social-links">
+                    <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="Github"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" aria-label="Dribbble"><i class="fa-brands fa-dribbble"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Lintar Bumi. Dibuat dengan <i class="fa-solid fa-heart" style="color: #00BFA6;"></i> dan kode murni.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
